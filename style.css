@@ -6,7 +6,7 @@
 
 body {
   height: 100vh;
-  background-image: url(/counter-project/counter.jpg);
+  background-image: url(counter.jpg);
   background-position: center;
   background-size: cover;
   display: flex;
