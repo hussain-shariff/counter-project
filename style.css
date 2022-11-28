@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background-image: url(/counter-project/counter.jpg);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  text-align: center;
+  width: 40%;
+  height: 30%;
+  color: whitesmoke;
+}
+.container span {
+  font-size: 5rem;
+}
+.container button {
+  padding: 1rem;
+  border-radius: 10px;
+  border: 2px solid whitesmoke;
+  text-transform: uppercase;
+}
+
+.container button:hover {
+  box-shadow: 0px 0px 10px black;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 760px) {
+  .btns {
+    display: flex;
+    flex-direction: column;
+  }
+  .btn {
+    margin: 5px;
+    font-size: 1rem;
+  }
+}
